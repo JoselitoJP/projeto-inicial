@@ -77,5 +77,22 @@ void main(List<String> argument){
 
   print(frase3);
 
-  
+  //1°aula do Modulo 04-Ultilizando laço de repetição
+
+  bool maiorDeIdade;
+
+  if(idade >= 18){
+    maiorDeIdade = true;
+  }else{
+    maiorDeIdade = false;
+  }
+
+  String frase4 = 'Oi eu sou ${Joselto2[3]}, \n'
+        ' eu tenho ${Joselto2[0]} anos,\n'
+        ' tenho ${Joselto2[1]} metros de altura, \n'
+        ' sou geek? ${Joselto2[2]} \n'
+        ' e meu apelido é ${Joselto2[4]}\n'
+        ' eu sou maior de idade? $maiorDeIdade';
+
+  print(frase4);
 }
