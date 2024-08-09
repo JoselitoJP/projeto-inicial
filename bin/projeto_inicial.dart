@@ -95,4 +95,12 @@ void main(List<String> argument){
         ' eu sou maior de idade? $maiorDeIdade';
 
   print(frase4);
+
+  //2° aula do Modulo 04-Ultilizando laço de repetição
+
+  for(int i = 1; i<=5; i++){
+    print('Conclui $i voltas');
+  }
+
+
 }
