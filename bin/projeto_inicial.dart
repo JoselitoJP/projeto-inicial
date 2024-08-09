@@ -98,7 +98,7 @@ void main(List<String> argument){
 
   //2° aula do Modulo 04-Ultilizando laço de repetição
 
-  for(int i = 1; i<=5; i++){
+  for(int i = 0; i <= 10; i = i+2){
     print('Conclui $i voltas');
   }
 
