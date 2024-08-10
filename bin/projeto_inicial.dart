@@ -104,7 +104,11 @@ void main(List<String> argument){
 
   //3° aula do Modulo 04-Ultilizando laço de repetição
 
-  
+  int energia = 100;
 
+  while (energia>0) {
+    print('Mais uma reptição!');
+    energia = energia - 10;
+  }
 
 }
