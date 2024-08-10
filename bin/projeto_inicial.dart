@@ -111,4 +111,8 @@ void main(List<String> argument){
     energia = energia - 10;
   }
 
+  do {
+    print('Mais uma repetição!');
+    energia = energia - 10;
+  } while (energia>0);
 }
