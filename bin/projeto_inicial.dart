@@ -38,11 +38,11 @@ void main(List<String> argument){
 
   //1° aula do Modulo 03-Selecionando Lista
 
-  List<String> listanomes = ['Ricarth','Natália', 'Alex','Ândriu', 'André'];
-
-  print(listanomes);
+  //List<String> listanomes = ['Ricarth','Natália', 'Alex','Ândriu', 'André'];
+  //TODO: Fazer outras Personas da equipe de Moblie
+  /*print(listanomes);
   print(listanomes[0]);  
-  print(listanomes.length);
+  print(listanomes.length);*/
 
   //2° aula do Modulo 03-Selecionando Lista
   
@@ -65,8 +65,9 @@ void main(List<String> argument){
   var idade3 = 22 ;
   var altura2 = 1.90;
   var geek2 = true;
-  List<dynamic> Joselto2 = [idade3, altura2, geek2, nome2, apelido2];
 
+  List<dynamic> Joselto2 = [idade3, altura2, geek2, nome2, apelido2];
+  
   print(Joselto2);
 
   String frase3 = 'Oi eu sou ${Joselto2[3]}, \n'
